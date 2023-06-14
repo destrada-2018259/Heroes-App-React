@@ -6,7 +6,7 @@ import { UserPage } from "../pages/UserPage";
 
 export const HeroesRoutes = () => {
 
-    const rol = JSON.stringify(localStorage.getItem('rol'));
+    const rol = JSON.parse(localStorage.getItem('rol'));
 
     return (
         <>
